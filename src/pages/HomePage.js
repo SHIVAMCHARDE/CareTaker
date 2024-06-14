@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import CareTakerList from '../components/CareTakerList';
-import './Home.css';
+// import './Home.css';
+import '../styles/Home.css';
 const HomePage = () => {
   const navigate = useNavigate();
 

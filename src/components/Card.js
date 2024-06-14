@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Card.css';
+// import './Card.css';
+import "../styles/Card.css"
 
 const Card = ({ careTaker }) => {
   const [appointmentDate, setAppointmentDate] = useState('');

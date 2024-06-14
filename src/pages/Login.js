@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './auth.css';
-import caretakerImage from './CareTaker.jpg'; // Import the CareTaker image
-
-
+// import '../components/auth.css';
+import caretakerImage from '../components/CareTaker.jpg'; // Import the CareTaker image
+import '../styles/auth.css';
+// Auth.css Use
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
