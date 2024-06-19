@@ -17,6 +17,7 @@ const Signup = () => {
   return (
     <div className="auth-container-signup">
          <div className="caretaker-container">
+          
           <img src={caretakerImage} alt="CareTaker" className="caretaker-image" />
         </div>
       <div className="auth-content">
