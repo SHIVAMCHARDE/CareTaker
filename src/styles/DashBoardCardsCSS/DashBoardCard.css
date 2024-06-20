@@ -1,0 +1,31 @@
+.DashBoardContainer{display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 27vh;
+    margin-left: 13vh;}
+
+    .Heading-Dashboard-Cards{
+        background-color: red;
+        color: white;
+        padding: 0px 11px 0px 12px;
+    }
+.CardsDashboard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+    background-color: rgb(207, 205, 205);
+    padding: 13px;
+}
+.Names-Hired-Caretakers{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    width: 20vh;
+}
+.ImgDashboard{    height: 70px;}
+
+.UPCOMING-EVENTS{width: 64vh;}

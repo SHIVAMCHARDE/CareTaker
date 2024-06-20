@@ -1,0 +1,120 @@
+.UserRegistration-LowerSection{
+    display: flex;
+    gap: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.UserRegistration-Container{
+    justify-content: unset;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 812px;
+    padding-top: 35px;
+    display: flex;
+
+}
+.TablesContainer{flex-direction: column;
+display: flex;
+}
+.tdLabbles{
+    margin-right: 275px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 26px;
+    padding-left: 168px;
+    width: 259px;
+    text-decoration: 2px solid black;
+
+}
+/* label {
+    background-color: white;
+    padding: 5px 10px; 
+    border-radius: 10px; 
+  } */
+  .upperInputCSS{
+    width: 296px;
+    height: 26px;
+    background-color: rgb(239, 235, 235);
+border: none;
+  }
+
+.Tables-fds{
+  gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondTable{
+    
+    background-color: rgb(4, 161, 4);
+    color: white;
+    width: 228px;
+    /* padding: 6px; */
+    border-radius: 3px;
+
+}
+.headingtable{
+    padding-left: 45px;
+}
+.secondTablelable{
+    margin-right: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 26px;
+    padding-left: 76px;
+    width: 150px;
+    -webkit-text-decoration: 2px solid black;
+    text-decoration: 2px solid black;
+
+}
+.lowerInputCSS{
+    width: 220px;
+    height: 28px;
+    background-color: rgb(239, 235, 235);
+    border: none;
+}
+.plus{
+    background-color: rgb(4, 161, 4);
+    color: white;
+    width: 53px;
+    padding-left: 38px;
+    /* padding: 6px; */
+    margin-left: 89px;
+    border-radius: 3px;
+    
+}
+.secondcontainer{
+    justify-content: center;
+    gap: 4px;
+    flex-direction: column;
+    display: flex;
+}
+
+.Heading{
+    margin-bottom: 50px;
+    color: white;
+    background-color: gray;
+    padding: 3px;
+}
+.submit-Btn{ 
+
+
+border: none;
+/* padding: 2px; */
+background-color: #e5e5ac;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 6px;
+padding-right: 6px;
+}
