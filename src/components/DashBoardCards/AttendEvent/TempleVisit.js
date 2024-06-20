@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function AttendEvent() {
+export default function TempleVisit() {
   return (
     <div>
-      AttendEvent
+      TempleVisit
     </div>
   )
 }

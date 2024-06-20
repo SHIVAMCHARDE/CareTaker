@@ -1,0 +1,40 @@
+.SideBar-Options-Containerss{display: flex;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdede;
+    gap: 27px;
+    width: 29vh;
+    
+}
+.SideBar-Options-Containerss>div{
+    background-color: white;
+    width: 23vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    cursor: pointer;
+
+}
+.SideBar-Options-Containerss>div:hover,
+.SideBar-Options-Containerss>div:active {
+    background-color: rgb(168, 250, 168);
+}
+.Main-AttendEvents{
+flex-direction: row;
+display: flex;}
+
+.UpcomingEvents{background-color: #adc9e4;
+width: 23vh;
+padding: 8px;
+display: flex;
+    justify-content: center;}
+.AttendEventOptions{
+background-color: #dfdede;}
+.AttendEventOptions{
+align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;}
