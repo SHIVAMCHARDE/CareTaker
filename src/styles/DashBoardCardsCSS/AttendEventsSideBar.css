@@ -1,12 +1,12 @@
 .SideBar-Options-Containerss{display: flex;
-    height: 717px;
+    height: 682px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #dfdede;
     gap: 27px;
-    width: 29vh;
+    width: 41vh;
     
 }
 .SideBar-Options-Containerss>div{
