@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import ProfilePic from '../../assets/UserOne.jpg'
-import { CareTakerData } from '../../Data/Data'
+import ProfilePic from '../../../assets/UserOne.jpg'
+import { CareTakerData } from '../../../Data/Data'
 
 export const HiredCareTaker = () => {
     return (
@@ -17,7 +17,7 @@ export const HiredCareTaker = () => {
 
 const CareTakerCard = ({ data }) => {
     return (
-        <div className='bg-gray-300 p-4 rounded-lg shadow-md'>
+        <div className='bg-gray-200 p-4 rounded-lg shadow-md'>
             <div className=''>
                 <img src={ProfilePic} alt="tourism 1" className="w-24 h-24 object-cover rounded-full mx-auto" />
             </div>

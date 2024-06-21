@@ -1,5 +1,5 @@
 import React from 'react'
-import { EventsData } from '../../Data/Data'
+import { EventsData } from '../../../Data/Data'
 
 export const AtteEvents = () => {
   return (

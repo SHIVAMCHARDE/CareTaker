@@ -22,8 +22,6 @@ export const EventsData =
     },
 ]
 
-
-
 export const CareTakerData =
 [
     {
@@ -38,7 +36,7 @@ export const CareTakerData =
         location:"Vimal Nagar",
         price:5000,
         service:"Household Chores",
-        exp:10
+        exp:10,
     },
     {
         picture_url:ProfilePic,

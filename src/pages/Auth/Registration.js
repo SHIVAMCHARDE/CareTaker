@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Registration.css';
+import '../../styles/Registration.css';
 export default function Registration() {
   return (
     <div className='Registration-Container'>

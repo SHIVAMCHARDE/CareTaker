@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CareTakerData } from '../../Data/Data';
+import { CareTakerData } from '../../../Data/Data';
 // import ProfilePic from '../../assets/UserImagin.png';
 
 export const Dashboard = () => {
@@ -118,4 +118,3 @@ const ReviewCard = ({}) =>{
 
 }
 
-export default Dashboard;

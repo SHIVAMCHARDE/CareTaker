@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import '../components/auth.css';
-import caretakerImage from '../components/CareTaker.jpg';
-import '../styles/auth.css';
+import caretakerImage from '../../components/CareTaker.jpg';
+import '../../styles/auth.css';
 
 const Signup = () => {
   const [email, setEmail] = useState('');

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/UserRegistration.css';
+import '../../styles/UserRegistration.css';
 export default function UserRegistration() {
   return (
     <div className='UserRegistration-Container'>

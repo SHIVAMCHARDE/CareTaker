@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { CareTakerData } from '../../Data/Data';
+import { CareTakerData } from '../../../Data/Data';
 
 
 import { HiredCareTaker } from './HiredCareTaker';
@@ -21,16 +21,16 @@ export const AboveSection = ({ user_data }) => {
         <>
             <div className='flex justify-between m-4'>
                 {/* img and data */}
-                <div className='flex items-center gap-3'>
+                <div className='flex items-center gap-5'>
                     {/* img */}
                     <div className=''>
-                        <img src={user_data.picture_url } alt="tourism 1" className=" aspect-w-2 aspect-h-2 object-cover" />
+                        <img src={user_data.picture_url } alt="tourism 1" className=" w-40 h-40 object-cover" />
                     </div>
                     {/* data */}
-                    <div className=''>
-                        <h4 className=''>{user_data.first_name} {user_data.last_name}</h4>
-                        <h4 className=''>{user_data.user_name}</h4>
-                        <h4 className=''>{user_data.location}</h4>
+                    <div className='ms-3'>
+                        <h4 className='my-2 text-xl '>{user_data.first_name} {user_data.last_name}</h4>
+                        <h4 className='my-2 text-xl '>{user_data.user_name}</h4>
+                        <h4 className='my-2 text-xl '>{user_data.location}</h4>
                     </div>
                 </div>
                 {/* two buttons */}
@@ -54,7 +54,7 @@ export const AboveSection = ({ user_data }) => {
 
 const Navbar = () => {
     return (
-        <nav className="bg-gray-500 p-1">
+        <nav className="bg-gray-300 p-1">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex flex-1 justify-between space-x-4">
                     <Link 

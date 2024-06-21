@@ -2,16 +2,16 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // import Login from './pages/Login';
-import Signup from './pages/Signup';
-import Registration from './pages/Registration';
+import Signup from './pages/Auth/Signup';
+import Registration from './pages/Auth/Registration';
 import HomePage from './pages/HomePage';
-import UserRegistration from './pages/UserRegistration';
+import UserRegistration from './pages/Auth/UserRegistration';
 import CareTakerRegistration from './pages/CareTakerRegistration';
 import DashBoard from './pages/DashBoard';
-import { HiredCareTaker } from './pages/Profile/HiredCareTaker';
-import { Profile } from './pages/Profile/Profile';
-import { AtteEvents } from './pages/Profile/AtteEvents';
-import { Dashboard } from './pages/Hire_Caretaker/Dashboard';
+import { HiredCareTaker } from './pages/Elderly/Profile/HiredCareTaker';
+import { Profile } from './pages/Elderly/Profile/Profile';
+import { AtteEvents } from './pages/Elderly/Profile/AtteEvents';
+import { Dashboard } from './pages/Elderly/Hire_Caretaker/Dashboard';
 
 const App = () => {
   return (
