@@ -1,26 +1,35 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/Login';
+
+// import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Registration from './pages/Registration';
 import HomePage from './pages/HomePage';
 import UserRegistration from './pages/UserRegistration';
 import CareTakerRegistration from './pages/CareTakerRegistration';
 import DashBoard from './pages/DashBoard';
+import { HiredCareTaker } from './pages/Profile/HiredCareTaker';
+import { Profile } from './pages/Profile/Profile';
+import { AtteEvents } from './pages/Profile/AtteEvents';
+import { Dashboard } from './pages/Hire_Caretaker/Dashboard';
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/login" element={<Login />} /> */}
         <Route path="/signup" element={<Signup />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/" element={<Navigate to="/login" />} />
+        {/* <Route path="/" element={<Navigate to="/login" />} /> */}
         <Route path="userRegistration" element={<UserRegistration/>} />
         <Route path="caretakerRegistration" element={<CareTakerRegistration/>} />
         <Route path="dashboard" element={<DashBoard/>} />
-
+        <Route path="profile/*" element={<Profile/>} >
+          <Route path='caretaker' element={<HiredCareTaker/>}/>
+          <Route path='events' element={<AtteEvents/>}/>
+        </Route>
+        <Route path="/hirecaretaker" element={<Dashboard/>} />
       </Routes>
     </Router>
   );
