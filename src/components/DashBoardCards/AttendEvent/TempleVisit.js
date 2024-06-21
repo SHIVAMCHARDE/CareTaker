@@ -1,16 +1,14 @@
 import React from 'react'
-import '../../styles/DashBoardCardsCSS/CreateEvent.css';
-
-export default function CreateEvent() {
+import '../../../styles/DashBoardCardsCSS/AttendEvent.css';
+export default function TempleVisit() {
   return (
-    // Note Here we are useing AttendEvent CSS
-    <div className='CreateEventContainer'>
-     <div>
-    <h3>Add Title Here - This is an input box</h3>
+    <div className='TempleVisit-Container'>
+  <div>
+    <h3>Temple Visit</h3>
   </div>
   <div>
     <p>
-    Add Description Here - this is a textArea element
+    Be a part of this event and explore the Ranjangaon Ganpati, one  of  the eight Ganpati’s of Ashtavinayaka. The travel includes breakfast and dinner. Carry at least 2 liters of water. Wish you a Happy and Safe travel.
     </p>
   </div>
 
@@ -58,9 +56,10 @@ export default function CreateEvent() {
 </form>
   </div>
   <div className='NeedHelpContainer'>
-<div className='BtnNeedHelps'>
-  <button type="button" className='CreateEventBtn'>CALL NOW</button>
-  {/* <button type="button" className='CallNowButton'>ENROLL NOW</button> */}
+<div><h4>Need Help ?</h4></div>
+<div className='BtnNeedHelp'>
+  <button type="button" className='CallNowButton'>CALL NOW</button>
+  <button type="button" className='CallNowButton'>ENROLL NOW</button>
 </div>
   </div>
     </div>

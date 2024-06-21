@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import '../styles/SideBar.css';
 import Userimagin from '../assets/UserImagin.png';
-import AttendEvent from '../components/DashBoardCards/AttendEvent';
+import AttendEvent from '../components/DashBoardCards/AttendEvent/AttendEvent';
 import CreateEvent from '../components/DashBoardCards/CreateEvent';
 import HireCaretaker from '../components/DashBoardCards/HireCaretaker';
 import HiredCaretaker from '../components/DashBoardCards/HiredCaretaker';

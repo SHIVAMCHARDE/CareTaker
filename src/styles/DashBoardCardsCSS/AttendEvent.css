@@ -1,0 +1,38 @@
+.TempleVisit-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.Tables-fds{
+gap: 7pc;
+    flex-direction: row;
+    display: flex;}
+
+    .CallNowButton{
+        background-color: antiquewhite;
+        padding: 3px;
+        border: 2px solid black;
+    }
+    .BtnNeedHelp{
+    display: flex;
+    flex-direction: row;
+    gap: 47vh;}
+
+    .CallNowButton{
+        padding: 7px;
+    }
+    .tbs{
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    display: flex;
+    gap: 8px;}
+
+    .upperInputCSS {
+        width: 296px;
+        height: 52px;
+        background-color: rgb(239, 235, 235);
+        border: none;
+    }
