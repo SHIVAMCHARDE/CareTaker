@@ -1,0 +1,13 @@
+
+.CreateEventContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3pc;
+    margin-left: 38vh;
+    justify-content: center;
+    align-items: center;}
+    .CreateEventBtn{
+    background-color: #ffffc7;
+    padding: 12px;
+    width: 211%;
+margin-top: 5vh;}
