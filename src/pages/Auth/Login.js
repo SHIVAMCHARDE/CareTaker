@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
-import caretakerImage from '../components/CareTaker.jpg';
-import '../styles/auth.css';
+import caretakerImage from '../../components/CareTaker.jpg';
+import '../../styles/auth.css';
 
 // need to be filled this for login i will try it later part/
 const clientId = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
@@ -14,7 +14,8 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/home');
+    // navigate('/home');
+    navigate('/homecaretaker');
   };
 
   const onGoogleSuccess = (response) => {

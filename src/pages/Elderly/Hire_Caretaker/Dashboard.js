@@ -14,7 +14,7 @@ export const Dashboard = () => {
     <>
       <div className="flex ">
         {/* sidebar */}
-        <div className="grid bg-gray-300 p-5 h-screen grid-cols-1 md:grid-cols-1 lg:grid-cols-1  mt-3 mx-4">
+        <div className="grid bg-gray-300 p-5 h-screen grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           {CareTakerData.map((data, index) => (
             <SideBar key={index} data={data} onSelect={handleSelect} />
           ))}
@@ -128,7 +128,7 @@ const AboveSection = ({ user_data }) => {
             <label className="text-xl">Time</label>
             <input className="bg-gray-200 p-3 w-32 me-2 rounded-lg" type="time" name="time" onChange={onChangeHandler}/>
           </div>
-          <button className="bg-[#FFE8A3]  hover:bg-[#FFE185] flex p-2  rounded-xl text-white w-48 justify-center item-center relative"  >
+          <button className="bg-[#FFE8A3]  hover:bg-[#FFE185] flex p-2  rounded-xl  w-48 justify-center item-center relative"  >
             <span className="ms-1">Submit Request</span>
           </button>
         </form>

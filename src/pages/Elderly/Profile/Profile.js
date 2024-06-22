@@ -1,15 +1,31 @@
-
-import { Link } from 'react-router-dom';
+import React,{useState} from 'react'
 import { CareTakerData } from '../../../Data/Data';
 import { HiredCareTaker } from './HiredCareTaker';
+import { AtteEvents } from './AtteEvents';
 
 export const Profile = () => {
+    const [activeOption, setActiveOption] = useState(null);
+
+    const handleOptionClick = (option) => {
+      setActiveOption(option);
+    };
+  
+    const renderContent = () => {
+      switch (activeOption) {
+        case 'Caretaker':
+          return <HiredCareTaker/>
+          ;
+        case 'Events':
+          return <AtteEvents/>;
+        default:
+          return <HiredCareTaker/>
+      }
+    };
     return (
         <>
             <AboveSection user_data={CareTakerData[0]}/>
-            <Navbar />
-            {/* <AtteEvents/> */}
-            <HiredCareTaker/>
+            <Navbar  handleOptionClick={handleOptionClick}/>
+            <div>{renderContent()}</div>
         </>
     )
 }
@@ -50,26 +66,25 @@ export const AboveSection = ({ user_data }) => {
     )
 }
 
-const Navbar = () => {
+const Navbar = ({handleOptionClick}) => {
     return (
-        <nav className="bg-gray-300 p-1">
+        <nav className="bg-gray-300 p-1 mx-1 rounded-lg">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex flex-1 justify-between space-x-4">
-                    <Link 
-                        to="/" 
+                    <div
+                        onClick={() => handleOptionClick('Caretaker')}
                         className=" text-2xl font-semibold flex-1 text-center hover:bg-[#69D487] p-2 rounded-md active:bg-[#69D487]"
                     >
                         Hired Caretakers
-                    </Link>
-                    <Link 
-                        to="/about" 
+                    </div>
+                    <div 
+                        onClick={() => handleOptionClick('Events')}
                         className=" text-2xl font-semibold flex-1 text-center hover:bg-[#69D487] p-2 rounded-md active:bg-[#69D487]"
                     >
                         Attended Events
-                    </Link>
+                    </div>
                 </div>
             </div>
         </nav>
     );
 }
-

@@ -132,3 +132,38 @@ export const CareTakerData =
             ]
         },
     ]
+export const review = [
+        {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 2
+        },
+        {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 3
+        }, {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 4
+        }, {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 1
+        },, {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 1
+        }, {
+            picture_url: ProfileUser,
+            user_name:"Kira",
+            descp: "This service was awesome and really loved it.",
+            stars: 1
+        }
+
+    ];
