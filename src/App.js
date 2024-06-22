@@ -12,6 +12,7 @@ import { HiredCareTaker } from './pages/Elderly/Profile/HiredCareTaker';
 import { Profile } from './pages/Elderly/Profile/Profile';
 import { AtteEvents } from './pages/Elderly/Profile/AtteEvents';
 import { Dashboard } from './pages/Elderly/Hire_Caretaker/Dashboard';
+import { MyCustomer } from './pages/CareTaker/Customer/MyCustomer';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='events' element={<AtteEvents/>}/>
         </Route>
         <Route path="/hirecaretaker" element={<Dashboard/>} />
+        <Route path="/customer" element={<MyCustomer/>} />
       </Routes>
     </Router>
   );

@@ -1,8 +1,6 @@
 
 import { Link } from 'react-router-dom';
 import { CareTakerData } from '../../../Data/Data';
-
-
 import { HiredCareTaker } from './HiredCareTaker';
 
 export const Profile = () => {
@@ -34,19 +32,19 @@ export const AboveSection = ({ user_data }) => {
                     </div>
                 </div>
                 {/* two buttons */}
-                <div className=''>
-                    <div className='mb-3'>
-                        <button className="bg-yellow-400 hover:bg-yellow-500 flex p-2 text-center rounded-xl text-white relative">
-                            <span className='ms-1'>Edit Profile</span>
-                        </button>
-                    </div>
+              <div className='me-20 '>
+                  <div className='my-5'>
+                      <button className="bg-yellow-400  hover:bg-yellow-500 flex p-2  rounded-xl text-white w-36 justify-center relative">
+                          <span className='ms-1'>Edit Profile</span>
+                      </button>
+                  </div>
 
-                    <div className='mb-3'>
-                        <button className="bg-yellow-400 hover:bg-yellow-500 flex p-2 rounded-xl text-white relative">
-                            <span className='ms-1'>My Medication</span>
-                        </button>
-                    </div>
-                </div>
+                  <div className='my-5'>
+                      <button className="bg-yellow-400 hover:bg-yellow-500 flex p-2 rounded-xl text-white w-36 justify-center relative">
+                          <span className='ms-1'>My Medication</span>
+                      </button>
+                  </div>
+              </div>
             </div>
         </>
     )
